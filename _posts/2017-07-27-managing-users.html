@@ -3,8 +3,8 @@ layout: post
 current: post
 cover:  assets/images/team.jpg
 navigation: True
-title: Managing Ghost users
-date: 2017-07-27 07:00:00
+title: 코드 구현과 서버 구축
+date: 2017-09-30 07:00:00
 tags: [Getting started]
 class: post-template
 subclass: 'post tag-getting-started'
@@ -12,14 +12,16 @@ author: ghost
 categories: ghost
 ---
 
-<p>Ghost has a number of different user roles for your team</p>
-<h3 id="authors">Authors</h3>
-<p>The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own posts. Authors are <strong>trusted</strong> users. If you don't trust users to be allowed to publish their own posts, you shouldn't invite them to Ghost admin.</p>
-<h3 id="editors">Editors</h3>
-<p>Editors are the 2nd user level in Ghost. Editors can do everything that an Author can do, but they can also edit and publish the posts of others - as well as their own. Editors can also invite new authors to the site.</p>
-<h3 id="administrators">Administrators</h3>
-<p>The top user level in Ghost is Administrator. Again, administrators can do everything that Authors and Editors can do, but they can also edit all site settings and data, not just content. Additionally, administrators have full access to invite, manage or remove any other user of the site.</p>
-<h3 id="theowner">The Owner</h3>
-<p>There is only ever one owner of a Ghost site. The owner is a special user which has all the same permissions as an Administrator, but with two exceptions: The Owner can never be deleted. And in some circumstances the owner will have access to additional special settings if applicable — for example, billing details, if using Ghost(Pro).</p>
-<hr>
-<p>It's a good idea to ask all of your users to fill out their user profiles, including bio and social links. These will populate rich structured data for posts and generally create more opportunities for themes to fully populate their design.</p>
+<p>하드웨어를 구현했으니, 이제 소프트웨어를 구축할 차례다</p>
+<p>구현할 기능의 종류는 다음과 같다.</p>
+<h3 id="구현할 기능">구현할 기능</h3>
+<li> 일시정지 </li>
+<li> 채널 변경 </li>
+<li> 노래 변경 </li>
+<li> 전원꺼짐 </li>
+<li> LCD에 화면 표시 </li>
+<li> LCD노래 제목 플로우</li>
+<li> 부팅 시 바로 재생 </li>
+
+<p>구현하기 위해 밤을 새가며 코드를 완성하였다. </p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/adzEe"><a href="//imgur.com/adzEe"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
